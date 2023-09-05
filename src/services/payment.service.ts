@@ -1,6 +1,7 @@
 import { initMercadoPago } from "@mercadopago/sdk-react";
 import { IBrickError } from "@mercadopago/sdk-react/bricks/util/types/common";
 
+initMercadoPago(import.meta.env.VITE_MP_KEY);
 
 // Define the onError function for handling errors
 const onError = async (error: IBrickError) => {
@@ -10,12 +11,7 @@ const onError = async (error: IBrickError) => {
 
 // Define the onReady function for handling when the Brick is ready
 const onReady = async () => {
-  // Initialize MercadoPago with the API key from environment variables
-  initMercadoPago(import.meta.env.VITE_MP_KEY);
-  /*
-    Callback called when the Brick is ready.
-    You can hide loaders on your site here, for example.
-  */
+  console.log("Payment ready")
 };
 
 // Export all the necessary functions and variables
