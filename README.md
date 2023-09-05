@@ -37,6 +37,6 @@ Here's what you can expect in the coming releases:
 
 ### Feedback
 
-We value your feedback and would love to hear from you. If you have any feature requests or encounter any issues, please [open an issue](https://github.com/your-username/your-repo/issues) or reach out to us via email at [francoaguirretrabajo@gmail.com].
+We value your feedback and would love to hear from you. If you have any feature requests or encounter any issues, please [open an issue](https://github.com/FrancoAguirre112/adaptable-ecommerce-react-tailwind-typescript-axios-yup-zod-zustand/issues) or reach out to us via email at [francoaguirretrabajo@gmail.com].
 
 Stay tuned for exciting updates!
